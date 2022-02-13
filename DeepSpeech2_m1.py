@@ -9,8 +9,11 @@ import torch.utils.data as data
 import torch.nn.functional as F
 import numpy as np
 
-train_dataset = torchaudio.datasets.LIBRISPEECH("./LibriSpeech", url="train-clean-100", download=True)
-test_dataset = torchaudio.datasets.LIBRISPEECH("./LibriSpeech", url="test-clean", download=True)
+if not os.path.isdir("./data"):
+    os.makedirs("./data")
+
+train_dataset = torchaudio.datasets.LIBRISPEECH("./", url="train-clean-100", download=True)
+test_dataset = torchaudio.datasets.LIBRISPEECH("./", url="test-clean", download=True)
 
 train_audio_transforms = nn.Sequential(
     torchaudio.transforms.MelSpectrogram(sample_rate=16000, n_mels=128),
