@@ -1,2 +1,0 @@
-
-numpy.squeeze(a, axis=None)
