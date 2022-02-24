@@ -1,0 +1,22 @@
+learning_rate = 5e-4
+batch_size = 20
+
+
+Train Epoch: 1 [0/28539 (0%)]	Loss: 6.634621
+Train Epoch: 1 [2000/28539 (7%)]	Loss: 2.911537
+Train Epoch: 1 [4000/28539 (14%)]	Loss: 2.896098
+Train Epoch: 1 [6000/28539 (21%)]	Loss: 2.861484
+Train Epoch: 1 [8000/28539 (28%)]	Loss: 2.914432
+Train Epoch: 1 [10000/28539 (35%)]	Loss: 2.867092
+Train Epoch: 1 [12000/28539 (42%)]	Loss: 2.877373
+Train Epoch: 1 [14000/28539 (49%)]	Loss: 2.854045
+Train Epoch: 1 [16000/28539 (56%)]	Loss: 2.743256
+Train Epoch: 1 [18000/28539 (63%)]	Loss: 2.393490
+Train Epoch: 1 [20000/28539 (70%)]	Loss: 2.172003
+Train Epoch: 1 [22000/28539 (77%)]	Loss: 1.877793
+Train Epoch: 1 [24000/28539 (84%)]	Loss: 1.852757
+Train Epoch: 1 [26000/28539 (91%)]	Loss: 1.716242
+Train Epoch: 1 [28000/28539 (98%)]	Loss: 1.765814
+
+evaluating…
+Test set: Average loss: 1.5722, Average CER: 0.460924 Average WER: 0.9776
