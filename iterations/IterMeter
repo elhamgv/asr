@@ -3,7 +3,6 @@ class IterMeter(object):
     """aval 0 ast dar edame dar har marhale +1 mishavad"""
     def __init__(self):
         self.val = 0
-        self.val
 
     def step(self):
         self.val += 1
